@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class IsotopeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/isotope/dist/';
+    public $sourcePath = '@bower/isotope/dist/';
 
     public $js = [
         'isotope.pkgd.js',

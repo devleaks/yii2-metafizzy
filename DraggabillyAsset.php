@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class DraggabillyAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/draggabilly/dist/';
+    public $sourcePath = '@bower/draggabilly/dist/';
 
     public $js = [
         'draggabilly.pkgd.js',

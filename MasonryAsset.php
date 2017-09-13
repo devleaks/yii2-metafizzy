@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class MasonryAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/masonry/dist/';
+    public $sourcePath = '@bower/masonry/dist/';
 
     public $js = [
         'masonry.pkgd.js',

@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class PackeryAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/packery/dist/';
+    public $sourcePath = '@bower/packery/dist/';
 
     public $js = [
         'packery.pkgd.js',
